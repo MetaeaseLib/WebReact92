@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/webapi92/**",
+        "run": {
+          "serviceId": "webapi92",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
