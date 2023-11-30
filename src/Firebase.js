@@ -5,7 +5,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDDikVPfth0oUoe6Yl4Q2NjqxaMG0ajpgM",
+  apiKey: "key", // 後で更新
   authDomain: "metaeasegitwebapi01.firebaseapp.com",
   projectId: "metaeasegitwebapi01",
   storageBucket: "metaeasegitwebapi01.appspot.com",
