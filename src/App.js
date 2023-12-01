@@ -35,8 +35,8 @@ export default class App extends React.Component {
 
   getMessage() {
     const callBackend = async () => {
-      const baseURL = "https://" + projectId + ".web.app";
-      const apiEndpoint = baseURL + "/webapi92";
+//      const baseURL = "https://" + projectId + ".web.app";
+      const apiEndpoint = "https://webapi92-zivirtjj3q-uc.a.run.app";
       const user = auth.currentUser;
       const token = await user.getIdToken();
       const request = {  
