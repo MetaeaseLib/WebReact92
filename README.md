@@ -58,19 +58,19 @@ Error with authentication: Firebase ID token has incorrect "aud" (audience) clai
 
 0. GitHubリポジトリから以下ダウンロード（Cloud Shellで以下コマンド実行）
 cd $HOME
-git clone https://github.com/enakai00/react-google-login-example.git
+git clone https://github.com/MetaeaseLib/WebReact92.git
 
 1. Move to the application directory.
 ```
-cd $HOME
+cd $HOME/WebReact92
 ```
 2. Overwrite the Firebase configuration `const firebaseConfig` in `src/Firebase.js` with the contents that you copied in the previous step.
 
 3. Run the following commands.
 ```
-nvm install 16.10.0
-yarn install
-yarn build
+cd $HOME/WebReact92
+npm install
+npm run build
 ```
 
 ### Deploy the application on Firebase hosting.
